@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions attempt to solve the lexical scoping assignment.
+## The functions below create a 'special' matric and solve or retrieve the inverse of the matrix.
 
-## Write a short comment describing this function
+## This function creates a 'special'matrix that is able to cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function solves for the inverse of the 'special' matrix. If the inverse is already calculated, the function retrieves it from the cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
